@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[waiting for 100milli sec]]>
+    </line>
+    <line>
+      <![CDATA[reading dataurlFrom propertyFile]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Home Page 'Sign In' Button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[reading datamobNumFrom propertyFile]]>
+    </line>
+    <line>
+      <![CDATA[entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[clicking on SignInwithPassword button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[reading datapwdFrom propertyFile]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[clicking on SignInButton]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on MyAccount Button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on MyProfile Button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[switching to child page]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[TC Execution started for TC validateUserName]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[getting ActualUserName]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000milli sec]]>
+    </line>
+    <line>
+      <![CDATA[reading dataUNFrom propertyFile]]>
+    </line>
+    <line>
+      <![CDATA[TC validateUserNamePassed successfull]]>
+    </line>
+    <line>
+      <![CDATA[logging out]]>
+    </line>
+    <line>
+      <![CDATA[closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-25T15:19:54 IST" name="Suite" finished-at="2023-07-25T15:20:12 IST" duration-ms="17664">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T15:19:54 IST" name="Test" finished-at="2023-07-25T15:20:12 IST" duration-ms="17664">
+      <class name="test.PBtest_usingPropertiesFile">
+        <test-method is-config="true" signature="launchPolicyBazar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:19:54 IST" name="launchPolicyBazar" finished-at="2023-07-25T15:19:59 IST" duration-ms="4803" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for 100milli sec]]>
+            </line>
+            <line>
+              <![CDATA[reading dataurlFrom propertyFile]]>
+            </line>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPolicyBazar -->
+        <test-method is-config="true" signature="signInToPolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:19:59 IST" name="signInToPolicyBazaar" finished-at="2023-07-25T15:20:09 IST" duration-ms="10301" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Home Page 'Sign In' Button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[reading datamobNumFrom propertyFile]]>
+            </line>
+            <line>
+              <![CDATA[entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[clicking on SignInwithPassword button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[reading datapwdFrom propertyFile]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[clicking on SignInButton]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on MyAccount Button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on MyProfile Button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[switching to child page]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInToPolicyBazaar -->
+        <test-method signature="validateUserName()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:20:09 IST" name="validateUserName" finished-at="2023-07-25T15:20:11 IST" duration-ms="2071" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC Execution started for TC validateUserName]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[getting ActualUserName]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 1000milli sec]]>
+            </line>
+            <line>
+              <![CDATA[reading dataUNFrom propertyFile]]>
+            </line>
+            <line>
+              <![CDATA[TC validateUserNamePassed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromPolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:20:11 IST" name="logOutFromPolicyBazaar" finished-at="2023-07-25T15:20:11 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logging out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromPolicyBazaar -->
+        <test-method is-config="true" signature="closePolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:20:11 IST" name="closePolicyBazaar" finished-at="2023-07-25T15:20:12 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closePolicyBazaar -->
+      </class> <!-- test.PBtest_usingPropertiesFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
