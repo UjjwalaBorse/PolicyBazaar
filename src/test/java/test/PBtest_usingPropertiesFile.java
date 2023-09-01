@@ -28,6 +28,7 @@ public class PBtest_usingPropertiesFile extends Base {
 	@BeforeClass
 	
 		public void launchPolicyBazar() throws InterruptedException, IOException {
+		System.setProperty("webdriver.chrome.driver","D:\\testing selenium\\chromedriver.exe");
 	   Utility.wait(100);
 	   launchBrowserUsingPropertyFile();
 	   login=new LoginPage(driver);
@@ -80,7 +81,8 @@ public class PBtest_usingPropertiesFile extends Base {
 	  myAcc.clickOnLogOutButton();
   }
   @AfterClass
- public void closePolicyBazaar() {
+ public void closePolicyBazaar() throws InterruptedException {
+	  Utility.wait(3000);
 	  closeBrowser();
   }
 }

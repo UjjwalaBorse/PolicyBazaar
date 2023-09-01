@@ -10,8 +10,11 @@ import utility.*;
 
 public class Base {
 	//driver and browser setup
+	
 	static protected WebDriver driver;
+	
 	public void launchBrowser() {
+		System.setProperty("webdriver.chrome.driver","D:\\testing selenium\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.policybazaar.com");
 		Reporter.log("Browser launching", true);

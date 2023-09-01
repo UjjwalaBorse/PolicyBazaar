@@ -68,9 +68,6 @@
       <![CDATA[waiting for 1000milli sec]]>
     </line>
     <line>
-      <![CDATA[TC Execution started for TC validateUserName]]>
-    </line>
-    <line>
       <![CDATA[waiting for 1000milli sec]]>
     </line>
     <line>
@@ -83,21 +80,21 @@
       <![CDATA[reading dataUNFrom propertyFile]]>
     </line>
     <line>
-      <![CDATA[TC validateUserNamePassed successfull]]>
+      <![CDATA[logging out]]>
     </line>
     <line>
-      <![CDATA[logging out]]>
+      <![CDATA[waiting for 3000milli sec]]>
     </line>
     <line>
       <![CDATA[closing Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-25T15:19:54 IST" name="Suite" finished-at="2023-07-25T15:20:12 IST" duration-ms="17664">
+  <suite started-at="2023-09-01T12:58:26 IST" name="Default suite" finished-at="2023-09-01T12:58:49 IST" duration-ms="22956">
     <groups>
     </groups>
-    <test started-at="2023-07-25T15:19:54 IST" name="Test" finished-at="2023-07-25T15:20:12 IST" duration-ms="17664">
+    <test started-at="2023-09-01T12:58:26 IST" name="Default test" finished-at="2023-09-01T12:58:49 IST" duration-ms="22956">
       <class name="test.PBtest_usingPropertiesFile">
-        <test-method is-config="true" signature="launchPolicyBazar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:19:54 IST" name="launchPolicyBazar" finished-at="2023-07-25T15:19:59 IST" duration-ms="4803" status="PASS">
+        <test-method is-config="true" signature="launchPolicyBazar()[pri:0, instance:test.PBtest_usingPropertiesFile@795509d9]" started-at="2023-09-01T12:58:26 IST" name="launchPolicyBazar" finished-at="2023-09-01T12:58:32 IST" duration-ms="5360" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for 100milli sec]]>
@@ -110,7 +107,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchPolicyBazar -->
-        <test-method is-config="true" signature="signInToPolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:19:59 IST" name="signInToPolicyBazaar" finished-at="2023-07-25T15:20:09 IST" duration-ms="10301" status="PASS">
+        <test-method is-config="true" signature="signInToPolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@795509d9]" started-at="2023-09-01T12:58:32 IST" name="signInToPolicyBazaar" finished-at="2023-09-01T12:58:43 IST" duration-ms="10965" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for 1000milli sec]]>
@@ -171,11 +168,8 @@
             </line>
           </reporter-output>
         </test-method> <!-- signInToPolicyBazaar -->
-        <test-method signature="validateUserName()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:20:09 IST" name="validateUserName" finished-at="2023-07-25T15:20:11 IST" duration-ms="2071" status="PASS">
+        <test-method signature="validateUserName()[pri:0, instance:test.PBtest_usingPropertiesFile@795509d9]" started-at="2023-09-01T12:58:43 IST" name="validateUserName" finished-at="2023-09-01T12:58:45 IST" duration-ms="2085" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[TC Execution started for TC validateUserName]]>
-            </line>
             <line>
               <![CDATA[waiting for 1000milli sec]]>
             </line>
@@ -188,26 +182,26 @@
             <line>
               <![CDATA[reading dataUNFrom propertyFile]]>
             </line>
-            <line>
-              <![CDATA[TC validateUserNamePassed successfull]]>
-            </line>
           </reporter-output>
         </test-method> <!-- validateUserName -->
-        <test-method is-config="true" signature="logOutFromPolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:20:11 IST" name="logOutFromPolicyBazaar" finished-at="2023-07-25T15:20:11 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="logOutFromPolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@795509d9]" started-at="2023-09-01T12:58:45 IST" name="logOutFromPolicyBazaar" finished-at="2023-09-01T12:58:45 IST" duration-ms="242" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logging out]]>
             </line>
           </reporter-output>
         </test-method> <!-- logOutFromPolicyBazaar -->
-        <test-method is-config="true" signature="closePolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@53045c6c]" started-at="2023-07-25T15:20:11 IST" name="closePolicyBazaar" finished-at="2023-07-25T15:20:12 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="closePolicyBazaar()[pri:0, instance:test.PBtest_usingPropertiesFile@795509d9]" started-at="2023-09-01T12:58:45 IST" name="closePolicyBazaar" finished-at="2023-09-01T12:58:49 IST" duration-ms="4243" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[waiting for 3000milli sec]]>
+            </line>
             <line>
               <![CDATA[closing Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closePolicyBazaar -->
       </class> <!-- test.PBtest_usingPropertiesFile -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
